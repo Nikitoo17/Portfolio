@@ -5,10 +5,8 @@
   align-items: center;
   justify-content: start;
   padding-top: 130px;
-
 }
 .divHome .image {
-
   max-width: 270px;
   border-radius: 15px 40px;
   margin-top: 20px;
@@ -27,18 +25,13 @@
 }
 
 @media screen and (max-width: 790px) {
-  .divHome {
-
-  }
   .divHome .image {
     width: 60%;
-
   }
   .divHome h1 {
-font-size: 30px;
-}
-.divHome h2 {
-  font-size: 23px;
-  
+    font-size: 30px;
+  }
+  .divHome h2 {
+    font-size: 23px;
   }
 }

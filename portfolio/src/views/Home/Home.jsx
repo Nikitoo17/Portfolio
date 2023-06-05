@@ -35,7 +35,7 @@ const Home = () => {
         whileInView={{ x: "0px", opacity: 1 }}
         transition={{ duration: 1, delay: 0.1 }}
       >
-        Juan Facundo Tam
+        Nahuel Nicolas Fadel
       </motion.h1>
       <motion.h2
         initial={{ opacity: 0.8, x: "20px" }}
