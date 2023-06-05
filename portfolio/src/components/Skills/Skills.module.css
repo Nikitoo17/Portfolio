@@ -1,0 +1,45 @@
+
+.divContainer {
+    margin-top: 140px;
+    /* border: 1px solid yellow; */
+}
+
+
+.divContainer .divIcons {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    width: 500px;
+}
+.divContainer .title{
+font-size: 25px;
+margin-bottom: 20px;
+}
+
+.divContainer .divIcons .divSkill{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 11px;
+    margin: 18px
+}
+
+.divContainer .divIcons .divSkill .icons{
+    /* border: 1px solid red; */
+    margin-bottom: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 790px) {
+    .divContainer .divIcons {
+        width: 300px;
+        margin-bottom: 250px;
+    }
+  }
