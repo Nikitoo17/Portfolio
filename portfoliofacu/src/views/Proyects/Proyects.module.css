@@ -1,0 +1,36 @@
+.contenedor {
+  /* border: 1px solid green; */
+  padding-top: 140px;
+  margin-bottom: 50px;
+}
+.contenedor h1{
+  /* border: 1px solid green; */
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+
+}
+.divProyects {
+  /* border: 1px solid crimson; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: fit-content;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 790px) {
+  .divProyects {
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: fit-content;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+}

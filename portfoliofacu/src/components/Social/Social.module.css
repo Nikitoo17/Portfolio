@@ -1,0 +1,51 @@
+.divIcons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 0;
+
+}
+.divIcons .icons {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin: 15px;
+    color: white;
+    padding: 0px;
+
+}
+
+.divIcons .BorderIcons {
+    /* border: 1px solid green; */
+    background-color: #00f7ff31;
+    border-radius: 50%;
+    margin: 0 20px 0 20px;
+}
+
+
+@media screen and (max-width: 790px) {
+    .divIcons .icons {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        margin: 15px;
+        color: white;
+        padding: 0px;
+    
+    }
+    .divIcons .BorderIcons {
+        /* border: 1px solid green; */
+        background-color: #00f7ff31;
+        border-radius: 50%;
+        margin: 0 10px 0 10px;
+    }
+  }
