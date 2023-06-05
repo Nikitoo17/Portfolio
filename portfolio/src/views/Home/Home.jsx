@@ -55,7 +55,6 @@ const Home = () => {
       <Social />
       <BoxHeader />
       <Skills />
-
     </div>
   );
 };
