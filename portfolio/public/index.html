@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link rel="stylesheet" href="/portfolio/public/css/tailwind.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -13,13 +13,24 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <style>
+      .cl-internal-d57fcb {
+        display: none;
+      }
+      .custom-gradient {
+        background-image: linear-gradient(to bottom right, #020131, #ffffff);
+      }
 
+      .custom-gradient:hover {
+        background-image: linear-gradient(to bottom right, #ffffff, #020131);
+      }
+    </style>
     <title>Portafolio</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
-      <script type="module" src="/portfolio/src/main.jsx"></script>
+      <script type="module" src="/portfolio/src/index.js"></script>
     </div>
   </body>
 </html>
