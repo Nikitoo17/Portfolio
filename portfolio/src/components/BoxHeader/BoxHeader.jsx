@@ -4,8 +4,8 @@ const BoxHeader = () => {
   return (
     <motion.div
       className="p-6 w-[900px]  text-justify mt-10 "
-      initial={{ opacity: 0.8, scale: 0.9 }}
-      transition={{ duration: 1, delay: 0.1 }}
+      initial={{ opacity: 0, scale: 0.9 }}
+      transition={{ duration: 1, delay: 2 }}
       whileInView={{ scale: 1, opacity: 1 }}
     >
       <h3 className="text-center text-[40px] font-bold mb-2">Sobre Mí</h3>
