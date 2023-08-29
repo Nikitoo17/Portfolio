@@ -1,5 +1,4 @@
 import React from "react";
-import style from "./Social.module.css";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { motion } from "framer-motion";
@@ -7,53 +6,34 @@ import { motion } from "framer-motion";
 const Social = () => {
   return (
     <motion.div
-      className={style.divIcons}
-      initial={{ opacity: 0.8, scale: 0.9 }}
-      transition={{ duration: 1 }}
+      className="flex items-center justify-center mt-40 mb-30 p-0 gap-x-10"
+      initial={{ opacity: 0, scale: 1.9 }}
+      transition={{ duration: 1, delay: 2 }}
       whileInView={{ scale: 1, opacity: 1 }}
     >
       <a
         href="https://github.com/Nikitoo17"
-        className={style.BorderIcons}
+        className="bg-purple-800 flex items-center justify-center w-20 h-20 text-white p-4 rounded-full hover:scale-125 hover:shadow-2xl hover:shadow-purple-800 transform transition-transform"
         target="_blank"
       >
-        <FiGithub className={style.icons} />
+        <FiGithub className="w-full h-full" />
       </a>
       <a
         href="https://www.linkedin.com/in/nicolas-nahuel-fadel-789031228/"
-        className={style.BorderIcons}
+        className="bg-blue-800 flex items-center justify-center w-20 h-20 text-white p-4 rounded-full hover:scale-125 hover:shadow-2xl hover:shadow-blue-800 transform transition-transform"
         target="_blank"
       >
-        <FaLinkedinIn className={style.icons} />
+        <FaLinkedinIn className="w-full h-full" />
       </a>
       <a
         href="https://api.whatsapp.com/send?phone=543875717508"
-        className={style.BorderIcons}
+        className="bg-green-800 flex items-center justify-center w-20 h-20 text-white p-4 rounded-full hover:scale-125 hover:shadow-2xl hover:shadow-green-800 transform transition-transform"
         target="_blank"
       >
-        <FaWhatsapp className={style.icons} />
+        <FaWhatsapp className="w-full h-full" />
       </a>
     </motion.div>
   );
 };
 
 export default Social;
-
-{
-  /* <a href="#" className={style.BorderIcons}>
-<FaLinkedin className={style.icons} />
-</a> */
-}
-{
-  /* <a href="#" className={style.BorderIcons}>
-<TiSocialLinkedinCircular className={style.icons} />
-</a> */
-}
-{
-  /* <a href="#footer" className={style.BorderIcons}>
-<FaGithub className={style.icons} />
-</a>
-<a href="www.google.com" className={style.BorderIcons}>
-  <FaGithub className={style.icons} />
-</a> */
-}
