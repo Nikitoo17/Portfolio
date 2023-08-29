@@ -25,12 +25,14 @@ const Social = () => {
       <a
         href="https://www.linkedin.com/in/nicolas-nahuel-fadel-789031228/"
         className={style.BorderIcons}
+        target="_blank"
       >
         <FaLinkedinIn className={style.icons} />
       </a>
       <a
         href="https://api.whatsapp.com/send?phone=543875717508"
         className={style.BorderIcons}
+        target="_blank"
       >
         <FaWhatsapp className={style.icons} />
       </a>
