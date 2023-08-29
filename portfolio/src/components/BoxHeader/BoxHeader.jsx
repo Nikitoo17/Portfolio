@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../BoxHeader/BoxHeader.module.css";
+import style from "./BoxHeader.module.css";
 import { motion } from "framer-motion";
 const BoxHeader = () => {
   return (
