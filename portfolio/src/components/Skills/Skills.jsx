@@ -24,7 +24,7 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 
-export default Skills = () => {
+const Skills = () => {
   return (
     <div className={style.contenedor} id="skills">
       <motion.div
@@ -116,3 +116,5 @@ export default Skills = () => {
     </div>
   );
 };
+
+export default Skills;
