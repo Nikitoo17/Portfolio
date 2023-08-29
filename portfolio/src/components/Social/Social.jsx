@@ -15,7 +15,11 @@ const Social = () => {
       transition={{ duration: 1 }}
       whileInView={{ scale: 1, opacity: 1 }}
     >
-      <a href="https://github.com/Nikitoo17" className={style.BorderIcons}>
+      <a
+        href="https://github.com/Nikitoo17"
+        className={style.BorderIcons}
+        target="_blank"
+      >
         <FiGithub className={style.icons} />
       </a>
       <a
