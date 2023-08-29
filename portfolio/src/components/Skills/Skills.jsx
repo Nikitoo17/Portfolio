@@ -21,13 +21,13 @@ import {
   SiCsharp,
   SiDotnet,
   SiLinux,
-  SiTailwindcss
+  SiTailwindcss,
 } from "react-icons/si";
 
-const Skills = () => {
+export default Skills = () => {
   return (
     <div className={style.contenedor} id="skills">
-      <motion.div 
+      <motion.div
         className={style.divContainer}
         initial={{ opacity: 0, y: "-30px" }}
         transition={{ duration: 1, type: "tween" }}
@@ -36,11 +36,11 @@ const Skills = () => {
         <h1 className={style.title}>My Skills</h1>
         <motion.div className={style.divIcons}>
           <div className={style.divSkill}>
-            <SiJavascript className={style.icons}/>
+            <SiJavascript className={style.icons} />
             <span>Javascript</span>
           </div>
           <div className={style.divSkill}>
-            <SiTypescript className={style.icons}/>
+            <SiTypescript className={style.icons} />
             <span>Typescript</span>
           </div>
           <div className={style.divSkill}>
@@ -111,12 +111,8 @@ const Skills = () => {
             <SiDotnet className={style.icons} />
             <span>.Net</span>
           </div>
-
         </motion.div>
       </motion.div>
     </div>
-
   );
 };
-
-export default Skills;
