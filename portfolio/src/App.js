@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-purple-500 to-pink-500 text-center scroll-smooth">
+    <div className="bg-gradient-to-br from-black via-black  to-purple-950 text-center scroll-smooth">
       <div className="min-h-screen flex flex-col items-center justify-center text-white font-poppins">
         <Nav />
         <Home />
