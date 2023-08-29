@@ -5,8 +5,6 @@ import BoxHeader from "../../components/BoxHeader/BoxHeader";
 import { motion } from "framer-motion";
 import Skills from "../../components/Skills/Skills";
 
-// animate={{ x: "0px", opacity: 1}}
-
 const Home = () => {
   return (
     <div
