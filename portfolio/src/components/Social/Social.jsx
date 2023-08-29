@@ -1,10 +1,7 @@
 import React from "react";
 import style from "./Social.module.css";
-import { FaGithub, FaLinkedinIn, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
-import { AiOutlineMail } from "react-icons/ai";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Social = () => {
