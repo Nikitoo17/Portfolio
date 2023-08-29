@@ -3,7 +3,6 @@
 .App {
   text-align: center;
   scroll-behavior: smooth;
-
 }
 
 /* background-color:  #282c34; */
@@ -20,10 +19,6 @@
   margin: 0;
 }
 
-.App-link {
-  /* color: #61dafb; */
-}
-
 .ModalProyects_divModal__4K1AB {
-background-color: #2a2c53;
+  background-color: #2a2c53;
 }
