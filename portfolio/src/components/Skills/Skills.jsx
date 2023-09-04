@@ -123,10 +123,6 @@ const Skills = () => {
             <SiSass className={style.icons} />
             <span>Sass</span>
           </div>
-          <div className={style.divSkill}>
-            <SiLess className={style.icons} />
-            <span>Less</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
