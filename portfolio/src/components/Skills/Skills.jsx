@@ -67,7 +67,6 @@ const Skills = () => {
                   initial={{ opacity: 0 }}
                   transition={{ duration: 1, type: "tween", delay: 0.5 }}
                   whileInView={{ opacity: 1 }}
-                  // className={`flex flex-col items-center m-4 justify-center ${"skills-box"}`}
                   data-aos="fade-down-left"
                   className="skills-box items-center "
                   style={{ "--clr": "#FFFFFF", "--i": 0 }}
