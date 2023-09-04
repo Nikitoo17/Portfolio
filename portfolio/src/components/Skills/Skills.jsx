@@ -46,19 +46,24 @@ const Skills = () => {
     { icon: SiDotnet, text: ".NET" },
   ];
   return (
-    <div className={style.contenedor} id="skills">
+    <div className="mt-32 h-[900px] pt-72" id="skills">
       <motion.div
-        className="mt-[250px] h-[700px]"
+        className=""
         initial={{ opacity: 0, y: "-30px" }}
         transition={{ duration: 1, type: "tween" }}
         whileInView={{ y: "0px", opacity: 1 }}
       >
-        <h1 className={style.title}>My Skills</h1>
-        <motion.div className={style.divIcons}>
+        <h1 className="text-3xl mb-6">Mis Habilidades</h1>
+        <motion.div className="flex flex-wrap items-center justify-center h-[700px]  w-full">
           {skills &&
             skills.map((item, index) => (
-              <div className={style.divSkill} key={index}>
-                {React.createElement(item.icon, { className: style.icons })}
+              <div
+                className="flex flex-col items-center justify-center text-sm m-4"
+                key={index}
+              >
+                {React.createElement(item.icon, {
+                  className: "mb-1 w-[100px] h-[100px]",
+                })}
                 <span>{item.text}</span>
               </div>
             ))}
