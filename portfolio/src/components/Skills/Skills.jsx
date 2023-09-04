@@ -1,5 +1,5 @@
 import React from "react";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import "./Skills.css";
 import {
   SiJavascript,
@@ -54,12 +54,12 @@ const Skills = () => {
         whileInView={{ y: "0px", opacity: 1 }}
       >
         <p
-          className="text-6xl font-bold text-[#700464] mb-10"
+          className="text-5xl font-bold text-[#700464] mb-10"
           style={{ textShadow: "0px 3px 10px rgba(255, 255, 255, 1)" }}
         >
-          Mis Habilidades
+          S K I L L S
         </p>
-        <motion.div className="flex flex-wrap items-center justify-center h-[700px]  w-full ">
+        <motion.div className="flex flex-wrap items-center justify-center h-[700px] w-full ">
           {skills &&
             skills.map((item, index) => (
               <section className="skills-section" key={index}>
