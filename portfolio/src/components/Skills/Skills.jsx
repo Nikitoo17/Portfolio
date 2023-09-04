@@ -131,10 +131,6 @@ const Skills = () => {
             <SiCplusplus className={style.icons} />
             <span>C++</span>
           </div>
-          <div className={style.divSkill}>
-            <SiCsharp className={style.icons} />
-            <span>C#</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
