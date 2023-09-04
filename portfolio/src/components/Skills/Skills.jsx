@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { delay, motion } from "framer-motion";
 import "./Skills.css";
 import {
   SiJavascript,
@@ -46,14 +46,19 @@ const Skills = () => {
     { icon: SiDotnet, text: ".NET" },
   ];
   return (
-    <div className="mt-32 h-[900px] pt-56" id="skills">
+    <div className="mt-32 h-[900px] pt-40" id="skills">
       <motion.div
         className=""
         initial={{ opacity: 0, y: "-30px" }}
         transition={{ duration: 1, type: "tween" }}
         whileInView={{ y: "0px", opacity: 1 }}
       >
-        <h1 className="text-3xl mb-6">Mis Habilidades</h1>
+        <p
+          className="text-6xl font-bold text-[#700464] mb-10"
+          style={{ textShadow: "0px 3px 10px rgba(255, 255, 255, 1)" }}
+        >
+          Mis Habilidades
+        </p>
         <motion.div className="flex flex-wrap items-center justify-center h-[700px]  w-full ">
           {skills &&
             skills.map((item, index) => (
@@ -67,7 +72,10 @@ const Skills = () => {
               //   <span>{item.text}</span>
               // </div>
               <section className="skills-section" key={index}>
-                <div
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  transition={{ duration: 1, type: "tween", delay: 0.5 }}
+                  whileInView={{ opacity: 1 }}
                   // className={`flex flex-col items-center m-4 justify-center ${"skills-box"}`}
                   data-aos="fade-down-left"
                   className="skills-box items-center "
@@ -77,7 +85,7 @@ const Skills = () => {
                     className: "icon",
                   })}
                   <span>{item.text}</span>
-                </div>
+                </motion.div>
               </section>
             ))}
         </motion.div>
