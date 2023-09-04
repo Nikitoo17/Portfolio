@@ -73,11 +73,7 @@ const Skills = () => {
           </div>
           <div className={style.divSkill}>
             <SiReact className={style.icons} />
-            <span>React</span>
-          </div>
-          <div className={style.divSkill}>
-            <SiNextdotjs className={style.icons} />
-            <span>NextJS</span>
+            <span>RextJS</span>
           </div>
         </motion.div>
       </motion.div>
