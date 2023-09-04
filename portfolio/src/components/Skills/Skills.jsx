@@ -99,10 +99,6 @@ const Skills = () => {
             <SiPostgresql className={style.icons} />
             <span>PostgreSQL</span>
           </div>
-          <div className={style.divSkill}>
-            <SiSequelize className={style.icons} />
-            <span>Sequelize</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
