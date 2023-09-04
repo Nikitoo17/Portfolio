@@ -91,10 +91,6 @@ const Skills = () => {
             <SiNodedotjs className={style.icons} />
             <span>NodeJS</span>
           </div>
-          <div className={style.divSkill}>
-            <SiExpress className={style.icons} />
-            <span>Express</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
