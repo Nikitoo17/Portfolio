@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import style from "./Skills.module.css";
+import "./Skills.css";
 import {
   SiJavascript,
   SiPostgresql,
@@ -46,7 +46,7 @@ const Skills = () => {
     { icon: SiDotnet, text: ".NET" },
   ];
   return (
-    <div className="mt-32 h-[900px] pt-72" id="skills">
+    <div className="mt-32 h-[900px] pt-56" id="skills">
       <motion.div
         className=""
         initial={{ opacity: 0, y: "-30px" }}
@@ -54,18 +54,31 @@ const Skills = () => {
         whileInView={{ y: "0px", opacity: 1 }}
       >
         <h1 className="text-3xl mb-6">Mis Habilidades</h1>
-        <motion.div className="flex flex-wrap items-center justify-center h-[700px]  w-full">
+        <motion.div className="flex flex-wrap items-center justify-center h-[700px]  w-full ">
           {skills &&
             skills.map((item, index) => (
-              <div
-                className="flex flex-col items-center justify-center text-sm m-4"
-                key={index}
-              >
-                {React.createElement(item.icon, {
-                  className: "mb-1 w-[100px] h-[100px]",
-                })}
-                <span>{item.text}</span>
-              </div>
+              // <div
+              //   className="flex flex-col items-center justify-center text-sm m-4"
+              //   key={index}
+              // >
+              //   {React.createElement(item.icon, {
+              //     className: "mb-1 w-[100px] h-[100px]",
+              //   })}
+              //   <span>{item.text}</span>
+              // </div>
+              <section className="skills-section" key={index}>
+                <div
+                  // className={`flex flex-col items-center m-4 justify-center ${"skills-box"}`}
+                  data-aos="fade-down-left"
+                  className="skills-box items-center "
+                  style={{ "--clr": "#FFFFFF", "--i": 0 }}
+                >
+                  {React.createElement(item.icon, {
+                    className: "icon",
+                  })}
+                  <span>{item.text}</span>
+                </div>
+              </section>
             ))}
         </motion.div>
       </motion.div>
