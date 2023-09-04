@@ -119,10 +119,6 @@ const Skills = () => {
             <SiHtml5 className={style.icons} />
             <span>HTML</span>
           </div>
-          <div className={style.divSkill}>
-            <SiSass className={style.icons} />
-            <span>Sass</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
