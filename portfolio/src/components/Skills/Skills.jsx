@@ -87,10 +87,6 @@ const Skills = () => {
             <SiRedux className={style.icons} />
             <span>Redux</span>
           </div>
-          <div className={style.divSkill}>
-            <SiNodedotjs className={style.icons} />
-            <span>NodeJS</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
