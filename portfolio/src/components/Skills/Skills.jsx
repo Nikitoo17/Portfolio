@@ -79,14 +79,6 @@ const Skills = () => {
             <SiNextdotjs className={style.icons} />
             <span>NextJS</span>
           </div>
-          <div className={style.divSkill}>
-            <SiVite className={style.icons} />
-            <span>Vite</span>
-          </div>
-          <div className={style.divSkill}>
-            <SiRedux className={style.icons} />
-            <span>Redux</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
