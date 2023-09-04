@@ -107,10 +107,6 @@ const Skills = () => {
             <SiMongodb className={style.icons} />
             <span>MongoDB</span>
           </div>
-          <div className={style.divSkill}>
-            <SiTailwindcss className={style.icons} />
-            <span>Tailwind</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
