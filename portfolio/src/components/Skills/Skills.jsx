@@ -63,10 +63,6 @@ const Skills = () => {
                 <span>{item.text}</span>
               </div>
             ))}
-          {/* <div className={style.divSkill}>
-            <SiJavascript className={style.icons} />
-            <span>Javascript</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
