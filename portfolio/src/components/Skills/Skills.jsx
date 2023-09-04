@@ -48,7 +48,7 @@ const Skills = () => {
   return (
     <div className={style.contenedor} id="skills">
       <motion.div
-        className={style.divContainer}
+        className="mt-[250px] h-[700px]"
         initial={{ opacity: 0, y: "-30px" }}
         transition={{ duration: 1, type: "tween" }}
         whileInView={{ y: "0px", opacity: 1 }}
