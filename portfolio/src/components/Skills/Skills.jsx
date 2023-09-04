@@ -95,10 +95,6 @@ const Skills = () => {
             <SiExpress className={style.icons} />
             <span>Express</span>
           </div>
-          <div className={style.divSkill}>
-            <SiPostgresql className={style.icons} />
-            <span>PostgreSQL</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
