@@ -67,10 +67,6 @@ const Skills = () => {
             <SiJavascript className={style.icons} />
             <span>Javascript</span>
           </div>
-          <div className={style.divSkill}>
-            <SiTypescript className={style.icons} />
-            <span>Typescript</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
