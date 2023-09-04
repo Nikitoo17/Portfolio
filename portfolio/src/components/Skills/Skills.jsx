@@ -135,10 +135,6 @@ const Skills = () => {
             <SiCsharp className={style.icons} />
             <span>C#</span>
           </div>
-          <div className={style.divSkill}>
-            <SiDotnet className={style.icons} />
-            <span>.Net</span>
-          </div> */}
         </motion.div>
       </motion.div>
     </div>
