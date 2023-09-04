@@ -127,10 +127,6 @@ const Skills = () => {
             <SiLess className={style.icons} />
             <span>Less</span>
           </div>
-          <div className={style.divSkill}>
-            <SiCplusplus className={style.icons} />
-            <span>C++</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
