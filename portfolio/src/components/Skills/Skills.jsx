@@ -111,10 +111,6 @@ const Skills = () => {
             <SiTailwindcss className={style.icons} />
             <span>Tailwind</span>
           </div>
-          <div className={style.divSkill}>
-            <SiCss3 className={style.icons} />
-            <span>Css</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
