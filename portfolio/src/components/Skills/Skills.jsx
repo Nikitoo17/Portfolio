@@ -62,15 +62,6 @@ const Skills = () => {
         <motion.div className="flex flex-wrap items-center justify-center h-[700px]  w-full ">
           {skills &&
             skills.map((item, index) => (
-              // <div
-              //   className="flex flex-col items-center justify-center text-sm m-4"
-              //   key={index}
-              // >
-              //   {React.createElement(item.icon, {
-              //     className: "mb-1 w-[100px] h-[100px]",
-              //   })}
-              //   <span>{item.text}</span>
-              // </div>
               <section className="skills-section" key={index}>
                 <motion.div
                   initial={{ opacity: 0 }}
