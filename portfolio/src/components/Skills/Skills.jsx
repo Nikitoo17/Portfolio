@@ -20,7 +20,6 @@ import {
   SiCplusplus,
   SiCsharp,
   SiDotnet,
-  SiLinux,
   SiTailwindcss,
 } from "react-icons/si";
 
