@@ -56,12 +56,13 @@ const Skills = () => {
       >
         <h1 className={style.title}>My Skills</h1>
         <motion.div className={style.divIcons}>
-          skills && skills.map((item, index) => (
-          <div className={style.divSkill} key={index}>
-            {React.createElement(item.icon, { className: style.icons })}
-            <span>{item.text}</span>
-          </div>
-          ))
+          {skills &&
+            skills.map((item, index) => (
+              <div className={style.divSkill} key={index}>
+                {React.createElement(item.icon, { className: style.icons })}
+                <span>{item.text}</span>
+              </div>
+            ))}
           {/* <div className={style.divSkill}>
             <SiJavascript className={style.icons} />
             <span>Javascript</span>
