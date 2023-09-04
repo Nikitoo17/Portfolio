@@ -103,10 +103,6 @@ const Skills = () => {
             <SiSequelize className={style.icons} />
             <span>Sequelize</span>
           </div>
-          <div className={style.divSkill}>
-            <SiMongodb className={style.icons} />
-            <span>MongoDB</span>
-          </div>
         </motion.div>
       </motion.div>
     </div>
