@@ -3,7 +3,6 @@ import foto from "../../assets/foto.jpg";
 import Social from "../../components/Social/Social";
 import BoxHeader from "../../components/BoxHeader/BoxHeader";
 import { motion } from "framer-motion";
-import Skills from "../../components/Skills/Skills";
 import Title from "../../components/Title/Title";
 
 const Home = () => {
@@ -30,7 +29,6 @@ const Home = () => {
           <Social />
         </div>
       </div>
-      <Skills />
     </div>
   );
 };
