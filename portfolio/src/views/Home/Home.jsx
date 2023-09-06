@@ -13,7 +13,7 @@ const Home = () => {
       id="home"
     >
       <div className="flex justify-between w-full items-center">
-        <div className="flex flex-col">
+        <div className="flex flex-col h-full">
           <motion.img
             src={foto}
             alt="Foto Personal"
