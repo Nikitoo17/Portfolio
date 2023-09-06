@@ -76,9 +76,26 @@ const data = [
   },
   {
     id: 1,
-    tittle: "Clasificacion de Empleados",
+    tittle: "Gestion de Ventas",
     description:
-      "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
+      "La gestión de ventas en la aplicación SML ofrece un seguimiento completo de todas las transacciones, desde prospectos hasta conversiones, para optimizar el proceso comercial.",
+    image: "foto1",
+    imagealt: "foto proyecto 1",
+    link: "https://youtu.be/wQ4kndATuu0",
+    tecnology: [
+      <SiJavascript className={style.icon} />,
+      <SiReact className={style.icon} />,
+      <SiRedux className={style.icon} />,
+      <SiExpress className={style.icon} />,
+      <SiMongodb className={style.icon} />,
+      <SiTailwindcss className={style.icon} />,
+    ],
+  },
+  {
+    id: 1,
+    tittle: "Aplicacion de Clientes",
+    description:
+      "Nuestra aplicación de clientes permite a los usuarios rastrear sus estadísticas en redes sociales, visualizar su crecimiento y consultar el estado de sus pagos de manera conveniente y efectiva.",
     image: "foto1",
     imagealt: "foto proyecto 1",
     link: "https://youtu.be/wQ4kndATuu0",
