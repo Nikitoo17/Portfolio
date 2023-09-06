@@ -114,7 +114,7 @@ const data = [
     description: "Proyecto de punta a punta. Front-Back-BDD",
     image: "dog",
     imagealt: "foto proyecto 2",
-    link: "https://food-app-client.netlify.app",
+    link: "https://nicky-dogs.vercel.app/",
     tecnology: [
       <SiJavascript className={style.icon} />,
       <SiReact className={style.icon} />,
