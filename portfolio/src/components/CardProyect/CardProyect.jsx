@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import style from "./CardProyect.module.css";
+import style from "./CardProyect.css";
 import Modal from "../Modal/Modal";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 const proyectsImage = require.context("../../assets/proyectsImage");
 
 const CardProyect = ({
@@ -25,14 +25,20 @@ const CardProyect = ({
   return (
     <div>
       <motion.div
-        className={style.divCard}
+        className="divCard"
         onClick={openModal}
         initial={{ opacity: 0.6, scale: 0.9 }}
         transition={{ duration: 0.6 }}
         whileInView={{ opacity: 1, scale: 1 }}
       >
-        <h1>{tittle}</h1>
-        <img src={proyectsImage(`./${image}.webp`)} alt="imagen Proyecto" />
+        <img
+          src={proyectsImage(`./${image}.webp`)}
+          alt="imagen Proyecto"
+          className="img"
+        />
+        <h1 className="relative bg-opacity-80 bg-blur-md mt-4 text-lg px-2 py-1 rounded-lg z-10">
+          {tittle}
+        </h1>
       </motion.div>
       <Modal
         id={id}
