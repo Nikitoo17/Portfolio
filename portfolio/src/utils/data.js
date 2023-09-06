@@ -41,11 +41,11 @@ const data = [
     ],
   },
   {
-    id: 1,
+    id: 10,
     tittle: "Gestion de Empleados",
     description:
       "La gestión de empleados es una funcionalidad clave de la aplicación SML, que permite llevar a cabo diversas acciones, incluyendo la creación de nuevos empleados, la edición de sus datos, la capacidad de suspender o rehabilitar cuentas, así como la asignación de leads a los freelancers.",
-    image: "gestion_de_empleados",
+    image: "Gestion_de_empleados",
     imagealt: "foto proyecto 1",
     link: "https://youtu.be/wQ4kndATuu0",
     tecnology: [
@@ -63,7 +63,7 @@ const data = [
     description:
       "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
     image: "foto1",
-    imagealt: "foto proyecto 1",
+    imagealt: "foto1",
     link: "https://youtu.be/wQ4kndATuu0",
     tecnology: [
       <SiJavascript className={style.icon} />,
