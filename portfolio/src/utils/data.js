@@ -26,7 +26,59 @@ const data = [
   {
     id: 1,
     tittle: "SML StartUp",
-    description: "Proyecto SML StartUp. Front-Back-BDD",
+    description:
+      "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
+    image: "foto1",
+    imagealt: "foto proyecto 1",
+    link: "https://youtu.be/wQ4kndATuu0",
+    tecnology: [
+      <SiJavascript className={style.icon} />,
+      <SiReact className={style.icon} />,
+      <SiRedux className={style.icon} />,
+      <SiExpress className={style.icon} />,
+      <SiMongodb className={style.icon} />,
+      <SiTailwindcss className={style.icon} />,
+    ],
+  },
+  {
+    id: 1,
+    tittle: "Gestion de Empleados",
+    description:
+      "La gestión de empleados es una funcionalidad clave de la aplicación SML, que permite llevar a cabo diversas acciones, incluyendo la creación de nuevos empleados, la edición de sus datos, la capacidad de suspender o rehabilitar cuentas, así como la asignación de leads a los freelancers.",
+    image: "foto1",
+    imagealt: "foto proyecto 1",
+    link: "https://youtu.be/wQ4kndATuu0",
+    tecnology: [
+      <SiJavascript className={style.icon} />,
+      <SiReact className={style.icon} />,
+      <SiRedux className={style.icon} />,
+      <SiExpress className={style.icon} />,
+      <SiMongodb className={style.icon} />,
+      <SiTailwindcss className={style.icon} />,
+    ],
+  },
+  {
+    id: 1,
+    tittle: "Clasificacion de Empleados",
+    description:
+      "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
+    image: "foto1",
+    imagealt: "foto proyecto 1",
+    link: "https://youtu.be/wQ4kndATuu0",
+    tecnology: [
+      <SiJavascript className={style.icon} />,
+      <SiReact className={style.icon} />,
+      <SiRedux className={style.icon} />,
+      <SiExpress className={style.icon} />,
+      <SiMongodb className={style.icon} />,
+      <SiTailwindcss className={style.icon} />,
+    ],
+  },
+  {
+    id: 1,
+    tittle: "Clasificacion de Empleados",
+    description:
+      "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
     image: "foto1",
     imagealt: "foto proyecto 1",
     link: "https://youtu.be/wQ4kndATuu0",
