@@ -39,6 +39,7 @@
   justify-content: center;
   transition: 1s;
   overflow: hidden;
+  border-radius: 10px;
 }
 .skills-box:hover {
   box-shadow: 0 0 10px var(--clr), 0 0 30px var(--clr), 0 0 60px var(--clr);
