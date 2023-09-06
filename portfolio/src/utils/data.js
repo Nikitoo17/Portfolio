@@ -62,7 +62,7 @@ const data = [
     tittle: "Clasificacion de Empleados",
     description:
       "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
-    image: "foto1",
+    image: "gestion_de_leads",
     imagealt: "foto1",
     link: "https://youtu.be/wQ4kndATuu0",
     tecnology: [
@@ -91,26 +91,26 @@ const data = [
       <SiTailwindcss className={style.icon} />,
     ],
   },
-  {
-    id: 1,
-    tittle: "Aplicacion de Clientes",
-    description:
-      "Nuestra aplicación de clientes permite a los usuarios rastrear sus estadísticas en redes sociales, visualizar su crecimiento y consultar el estado de sus pagos de manera conveniente y efectiva.",
-    image: "foto1",
-    imagealt: "foto proyecto 1",
-    link: "https://youtu.be/wQ4kndATuu0",
-    tecnology: [
-      <SiJavascript className={style.icon} />,
-      <SiReact className={style.icon} />,
-      <SiRedux className={style.icon} />,
-      <SiExpress className={style.icon} />,
-      <SiMongodb className={style.icon} />,
-      <SiTailwindcss className={style.icon} />,
-    ],
-  },
+  // {
+  //   id: 1,
+  //   tittle: "Aplicacion de Clientes",
+  //   description:
+  //     "Nuestra aplicación de clientes permite a los usuarios rastrear sus estadísticas en redes sociales, visualizar su crecimiento y consultar el estado de sus pagos de manera conveniente y efectiva.",
+  //   image: "foto1",
+  //   imagealt: "foto proyecto 1",
+  //   link: "https://youtu.be/wQ4kndATuu0",
+  //   tecnology: [
+  //     <SiJavascript className={style.icon} />,
+  //     <SiReact className={style.icon} />,
+  //     <SiRedux className={style.icon} />,
+  //     <SiExpress className={style.icon} />,
+  //     <SiMongodb className={style.icon} />,
+  //     <SiTailwindcss className={style.icon} />,
+  //   ],
+  // },
   {
     id: 2,
-    tittle: "Food Recipes App",
+    tittle: "Dogs App",
     description: "Proyecto de punta a punta. Front-Back-BDD",
     image: "foto2",
     imagealt: "foto proyecto 2",
