@@ -79,7 +79,7 @@ const data = [
     tittle: "Gestion de Ventas",
     description:
       "La gestión de ventas en la aplicación SML ofrece un seguimiento completo de todas las transacciones, desde prospectos hasta conversiones, para optimizar el proceso comercial.",
-    image: "foto1",
+    image: "Gestion_de_ventas",
     imagealt: "foto proyecto 1",
     link: "https://youtu.be/wQ4kndATuu0",
     tecnology: [
