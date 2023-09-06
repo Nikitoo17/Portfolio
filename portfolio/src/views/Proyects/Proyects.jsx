@@ -7,7 +7,13 @@ import CardProyect from "../../components/CardProyect/CardProyect";
 
 const Proyects = () => {
   return (
-    <motion.div className={style.contenedor} id="proyectos">
+    <motion.div
+      className={style.contenedor}
+      id="proyectos"
+      initial={{ opacity: 0, y: "-30px" }}
+      transition={{ duration: 1, type: "tween" }}
+      whileInView={{ y: "0px", opacity: 1 }}
+    >
       <p
         className="text-5xl font-bold text-[#700464] mb-10"
         style={{ textShadow: "0px 3px 10px rgba(255, 255, 255, 1)" }}
