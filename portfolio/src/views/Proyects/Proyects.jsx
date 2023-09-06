@@ -1,31 +1,38 @@
 import React from "react";
 import style from "./Proyects.module.css";
-
+import { motion } from "framer-motion";
 import data from "../../utils/data.js";
 
 import CardProyect from "../../components/CardProyect/CardProyect";
 
 const Proyects = () => {
   return (
-    <div className={style.contenedor} id="proyectos">
-      <h1>Proyectos</h1>
+    <motion.div className={style.contenedor} id="proyectos">
+      <p
+        className="text-5xl font-bold text-[#700464] mb-10"
+        style={{ textShadow: "0px 3px 10px rgba(255, 255, 255, 1)" }}
+      >
+        P R O Y E C T O S
+      </p>
       <div className={style.divProyects}>
-        {data.map(({ id, tittle, description, image, imageAlt, tecnology, link}) => {
-          return (
-            <CardProyect
-              key={id}
-              id={id}
-              link={link}
-              tittle={tittle}
-              description={description}
-              image={image}
-              imageAlt={imageAlt}
-              tecnology={tecnology}
-            />
-          );
-        })}
+        {data.map(
+          ({ id, tittle, description, image, imageAlt, tecnology, link }) => {
+            return (
+              <CardProyect
+                key={id}
+                id={id}
+                link={link}
+                tittle={tittle}
+                description={description}
+                image={image}
+                imageAlt={imageAlt}
+                tecnology={tecnology}
+              />
+            );
+          }
+        )}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
