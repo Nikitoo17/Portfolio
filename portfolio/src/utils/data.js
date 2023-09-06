@@ -30,7 +30,7 @@ const data = [
       "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
     image: "sml_general",
     imagealt: "foto proyecto 1",
-    link: "https://youtu.be/wQ4kndATuu0",
+    link: "https://sml-nicky.vercel.app/",
     tecnology: [
       <SiJavascript className={style.icon} />,
       <SiReact className={style.icon} />,
@@ -47,7 +47,7 @@ const data = [
       "La gestión de empleados es una funcionalidad clave de la aplicación SML, que permite llevar a cabo diversas acciones, incluyendo la creación de nuevos empleados, la edición de sus datos, la capacidad de suspender o rehabilitar cuentas, así como la asignación de leads a los freelancers.",
     image: "Gestion_de_empleados",
     imagealt: "foto proyecto 1",
-    link: "https://youtu.be/wQ4kndATuu0",
+    link: "https://sml-nicky.vercel.app/",
     tecnology: [
       <SiJavascript className={style.icon} />,
       <SiReact className={style.icon} />,
@@ -64,7 +64,7 @@ const data = [
       "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
     image: "gestion_de_leads",
     imagealt: "foto1",
-    link: "https://youtu.be/wQ4kndATuu0",
+    link: "https://sml-nicky.vercel.app/",
     tecnology: [
       <SiJavascript className={style.icon} />,
       <SiReact className={style.icon} />,
@@ -81,7 +81,7 @@ const data = [
       "La gestión de ventas en la aplicación SML ofrece un seguimiento completo de todas las transacciones, desde prospectos hasta conversiones, para optimizar el proceso comercial.",
     image: "Gestion_de_ventas",
     imagealt: "foto proyecto 1",
-    link: "https://youtu.be/wQ4kndATuu0",
+    link: "https://sml-nicky.vercel.app/",
     tecnology: [
       <SiJavascript className={style.icon} />,
       <SiReact className={style.icon} />,
@@ -98,7 +98,7 @@ const data = [
   //     "Nuestra aplicación de clientes permite a los usuarios rastrear sus estadísticas en redes sociales, visualizar su crecimiento y consultar el estado de sus pagos de manera conveniente y efectiva.",
   //   image: "foto1",
   //   imagealt: "foto proyecto 1",
-  //   link: "https://youtu.be/wQ4kndATuu0",
+  //   link: "https://sml-nicky.vercel.app/clientes-home",
   //   tecnology: [
   //     <SiJavascript className={style.icon} />,
   //     <SiReact className={style.icon} />,
@@ -138,19 +138,6 @@ const data = [
       <SiExpress className={style.icon} />,
       <SiPostgresql className={style.icon} />,
       <SiSequelize className={style.icon} />,
-    ],
-  },
-  {
-    id: 4,
-    tittle: "Marvel App Mobile",
-    description: "Este esta hecho de manera distinta",
-    image: "foto4",
-    imagealt: "foto proyecto 4",
-    link: "https://www.google.com.ar",
-    tecnology: [
-      <SiReact className={style.icon} />,
-      <SiReact className={style.icon} />,
-      <SiReact className={style.icon} />,
     ],
   },
 ];
