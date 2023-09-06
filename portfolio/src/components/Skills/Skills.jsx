@@ -59,7 +59,7 @@ const Skills = () => {
         >
           S K I L L S
         </p>
-        <motion.div className="flex flex-wrap items-center justify-center h-[700px] w-full ">
+        <motion.div className="flex flex-wrap items-center justify-center h-[700px] w-full  ">
           {skills &&
             skills.map((item, index) => (
               <section className="skills-section" key={index}>
