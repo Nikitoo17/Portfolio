@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Social = () => {
   return (
     <motion.div
-      className="flex items-center justify-center mt-40 mb-30 p-0 gap-x-10"
+      className="flex items-center justify-center gap-x-10"
       initial={{ opacity: 0, scale: 1.3 }}
       transition={{ duration: 1, delay: 2 }}
       whileInView={{ scale: 1, opacity: 1 }}
