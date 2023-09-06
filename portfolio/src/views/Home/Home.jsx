@@ -20,7 +20,8 @@ const Home = () => {
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="w-[600px] rounded-[15px]  mt-5  shadow-sm shadow-purple-950 mx-auto"
+            className="w-[600px] rounded-[15px]  mt-5   mx-auto"
+            style={{ boxShadow: "0px 0px 20px rgba(255, 255, 255, 1)" }}
           />
         </div>
         <div className="flex flex-col justify-between h-full">
