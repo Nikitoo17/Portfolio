@@ -112,7 +112,7 @@ const data = [
     id: 2,
     tittle: "Dogs App",
     description: "Proyecto de punta a punta. Front-Back-BDD",
-    image: "foto2",
+    image: "dog",
     imagealt: "foto proyecto 2",
     link: "https://food-app-client.netlify.app",
     tecnology: [
