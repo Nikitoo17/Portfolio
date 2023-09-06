@@ -8,7 +8,7 @@ import Title from "../../components/Title/Title";
 const Home = () => {
   return (
     <div
-      className="flex flex-col items-center justify-start pt-40 w-full px-40 mb-10 "
+      className="flex flex-col items-center justify-start pt-40 w-full mb-10 "
       id="home"
     >
       <div className="flex justify-between w-full items-center">
