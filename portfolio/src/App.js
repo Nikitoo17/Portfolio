@@ -8,16 +8,6 @@ import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <div className="bg-gradient-to-br from-black via-black  to-purple-950 text-center scroll-smooth">
-      <div className="min-h-screen gap-y-11 flex flex-col items-center justify-center text-white font-poppins">
-        <Nav />
-        <div className="px-40">
-          <Home />
-          <Skills />
-          <Proyects />
-        </div>
-        <Contact />
-        {/* <Footer /> */}
-      </div>
       <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-JGGEVD46LD"
@@ -30,6 +20,16 @@ function App() {
           gtag('config', 'G-JGGEVD46LD');
         `}
       </script>
+      <div className="min-h-screen gap-y-11 flex flex-col items-center justify-center text-white font-poppins">
+        <Nav />
+        <div className="px-40">
+          <Home />
+          <Skills />
+          <Proyects />
+        </div>
+        <Contact />
+        {/* <Footer /> */}
+      </div>
     </div>
   );
 }
