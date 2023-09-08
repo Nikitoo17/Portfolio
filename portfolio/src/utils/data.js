@@ -59,7 +59,7 @@ const data = [
   },
   {
     id: 1,
-    tittle: "Clasificacion de Empleados",
+    tittle: "Clasificacion de Clientes",
     description:
       "Esta aplicación, desarrollada para la empresa Social Media Lab, tiene como objetivo clasificar y completar la información de clientes potenciales.",
     image: "gestion_de_leads",
