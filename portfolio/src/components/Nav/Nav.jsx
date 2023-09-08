@@ -24,7 +24,7 @@ const Nav = () => {
         <TfiBriefcase className={style.icons} />
       </a>
       <a
-        href="https://github.com/juanfacundotam/juanfacundotam/raw/main/Juan%20Facundo%20Tam%20CV.pdf"
+        href="https://github.com/Nikitoo17/Portfolio/raw/main/portfolio/src/utils/Nicolas's%20Resume.pdf"
         className={style.link}
         download
       >
