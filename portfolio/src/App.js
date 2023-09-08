@@ -2,7 +2,6 @@ import Home from "./views/Home/Home";
 import Proyects from "./views/Proyects/Proyects";
 import Contact from "./views/Contact/Contact";
 import Nav from "./components/Nav/Nav";
-import Footer from "./components/Footer/Footer";
 import Skills from "./components/Skills/Skills";
 
 function App() {
